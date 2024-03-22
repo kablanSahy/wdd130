@@ -37,7 +37,7 @@ p {
 }
 
 main {
-    max-width: 840px;
+    grid-column: 2/3;
     margin: 1rem;
 }
 
@@ -46,12 +46,15 @@ main {
 aside {
     width: 20rem;
     margin: 1rem;
+    height: auto;
     border: 1px solid rgba(0, 0, 0, 0.2);
     padding: 1rem;
     background-color: #eee;
     color: #333;
     text-align: center;
     position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
 
 aside img {
@@ -81,4 +84,15 @@ footer {
     padding: 1rem;
     background-color: #ddd;
     color: #000;
+}
+
+
+.grid {
+    display: grid;
+    align-items: center;
+}
+
+header, .grid, footer {
+    max-width: 840px;
+    margin: 0 auto;
 }
