@@ -20,8 +20,38 @@ body {
     padding: 50px;
 }
 
-header nav a{
-    text-decoration: none;
+
+header {
+    margin: 1rem auto;
+	display: grid;
+	grid-template-columns: auto auto;
+	align-items: center;
+	border-bottom: 1px solid #ccc;
+	max-width: 100%;
+    justify-content: space-between;
+}
+
+header img {
+    margin: 0 0.25rem 0 1rem;
+	width: 150px;
+	height: auto;
+}
+
+header nav {
+	text-align: right;
+}
+
+header .navigation {
+	display: flex;
+	list-style: none;
+}
+
+
+.navigation a {
+	display: block;
+	color: navy;
+	padding: 15px;
+	text-decoration: none;
 }
 .sociallinks a {
     text-decoration: none;
@@ -29,7 +59,8 @@ header nav a{
 
 
 .sociallinks a img {
-    width: 50px;
+    width: 40px;
+    height: auto;
 }
 
 .hero {
@@ -80,4 +111,49 @@ h2 {
 section p {
     font-weight: bold;
     font-family: "Lato";
+}
+
+.mysection {
+    width: 100%;
+}
+
+.mysection h2{
+    display: flex;
+    justify-content: center;
+}
+.pictures {
+    display: flex;
+    justify-content: space-around;
+}
+
+.pictures img {
+    width: 200px;
+    height: auto;
+}
+
+figcaption {
+    display:flex;
+    justify-content: center;
+    font-family: "Lato";
+    font-weight: 700;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: auto auto;
+    /* align-items: center; */
+}
+
+footer p {
+    text-align: right;
+}
+
+footer nav {
+    text-align: right;
+}
+
+
+.history h2{
+    display: flex;
+    justify-content: center;
 }
