@@ -135,7 +135,9 @@ figcaption {
     display:flex;
     justify-content: center;
     font-family: "Lato";
-    font-weight: 700;
+    font-style: italic;
+    margin-top: 2px;
+    color: #666;
 }
 
 footer {
@@ -156,4 +158,71 @@ footer nav {
 .history h2{
     display: flex;
     justify-content: center;
+}
+
+.form-contact {
+    width: 600px;
+    margin: 0 auto 60px;
+}
+
+fieldset {
+    display: grid;
+    border-radius: 3px;
+    padding: 0;
+    border: 0;
+}
+label {
+    margin-bottom: 5px;
+}
+b {
+    color:#033475;
+}
+
+input, select, textarea {
+    min-width: 100%;
+    display: block;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+input[type="radio" i], input[type="checkbox"] {
+    background-color: initial;
+    display: table-cell;
+    min-width: 0;
+    cursor: default;
+    appearance: auto;
+    box-sizing: border-box;
+    margin: 3px 3px 0px 5px;
+    padding: initial;
+    border: initial;
+}
+
+.code {
+    padding: 20px;
+    margin: 15px 65px;
+    color: #fff;
+    font-size: 16px;
+    background: #333;
+}
+
+textarea {
+    min-width: 100%;
+    max-width: 100%;
+    resize: none;
+}
+
+.btn-contact {
+    margin: 10px 0 15px;
+    font-size: 18px;
+    background: #0963d7;
+    color: #FFF !important;
+    border: none !important;
+    border-radius: 3px !important;
+    padding: 18px 25px;
+    text-align: center;
+    cursor: pointer;
+}
+.btn-contact:hover {
+    background-color: #033475;
 }
