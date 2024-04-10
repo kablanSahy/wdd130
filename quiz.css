@@ -1,0 +1,74 @@
+*, :before, :after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font: 18px sans-serif;
+}
+
+header {
+    margin: 0 auto;
+    text-align: center;
+}
+h1 {
+    font-size: 3em;
+    margin: 10px 20px;
+    color: #033475;
+}
+
+.form-quiz {
+    width: 800px;
+    margin: 0 auto;
+}
+
+fieldset {
+    display: grid;
+    background: #ddd;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 25px;
+}
+label {
+    margin-bottom: 5px;
+}
+b {
+    color:#033475;
+}
+
+input, select, textarea {
+    display: block;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.code {
+    padding: 20px;
+    margin: 15px 65px;
+    color: #fff;
+    font-size: 16px;
+    background: #333;
+}
+
+textarea {
+    min-width: 100%;
+    max-width: 100%;
+    resize: none;
+}
+
+.btn-quiz {
+    margin: 10px 0 15px;
+    font-size: 18px;
+    background: #0963d7;
+    color: #FFF !important;
+    border: none !important;
+    border-radius: 3px !important;
+    padding: 18px 25px;
+    text-align: center;
+    cursor: pointer;
+}
+.btn-quiz:hover {
+    background-color: #033475;
+}
